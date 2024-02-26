@@ -29,7 +29,7 @@ public class OrderPage {
     //Кнопка да в окне подтверждения заказа
     private final By yesButton = By.xpath(".//button[text() = 'Да']");
     //Окно с результатом оформления заказа
-    private final By madeOrder = By.xpath(".//div[@text() = 'Заказ оформлен']");
+    private final By madeOrder = By.xpath(".//div[text() = 'Заказ оформлен']");
 
     public OrderPage(WebDriver driver) {
         this.driver = driver;
